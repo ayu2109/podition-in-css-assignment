@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button hover</title>
+</head>
+<style>
+    button{
+        border-style: none;
+        border-radius: 4px;
+        background-color: #ff6666;
+        color: black;
+        padding: 10px,25px;
+        height: 50px;
+        width: 180px;
+        :hover{
+            cursor: pointer;
+        }
+    }
+    ul{
+        list-style: none;
+
+    }
+    .hiden{
+        overflow-y: scroll;
+        height: 130px;
+        width: 180px;
+        position: absolute;
+        top: 11%;
+        background-color: azure;
+        :hover{
+            cursor: pointer;
+            opacity: display;
+        }
+        
+    }
+    li{
+        font-size: 20px;
+        height: 40px;
+    }
+    .ul{
+        opacity: 0.1;
+        
+    }
+</style>
+<body>
+    <button >
+        Hover To View Options
+    </button>
+    <div class="hiden">
+        <ul>
+            <li>Option 1</li>
+            <li>Option 2</li>
+            <li>Option 3</li>
+            <li>Option 4</li>
+            <li>Option 5</li>
+            <li>Option 6</li>
+            <li>Option 7</li>
+            <li>Option 8</li>
+            <li>Option 9</li>
+            <li>Option 10</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards</title>
+</head>
+<style>
+    .card1{
+        height: 300px;
+        width: 200px;
+        background-color: gold;
+        border-style: solid;
+        border-color: black;
+        margin-left: 40px;
+       
+        :hover{
+            z-index: 1;
+            cursor: pointer;
+        }
+    
+    }
+    .card2{
+        height: 300px;
+        width: 200px;
+        background-color: rgb(62, 222, 158);
+        border-style: solid;
+        border-color: black;
+        margin-left: 40px;
+        position:absolute;
+        top: 35%;
+        left: 3%;
+        :hover{
+            z-index: 1;
+            cursor: pointer;
+        }
+    }
+    .card3{
+        height: 300px;
+        width: 200px;
+        background-color: rgb(55, 133, 169);
+        border-style: solid;
+        border-color: black;
+        margin-left: 40px;
+        position:absolute;
+        top: 58%;
+        left: 6%;
+    }
+    h1{
+        margin-left: 40px;
+    }
+    img{
+        position: relative;
+        left: 0%;
+    }
+    .pok{
+        margin-left: 30%;
+    }
+</style>
+<body>
+    <div class="main">
+        <h1 class="pok">Hover To Unveil The Pokemon</h1>
+        <div class="card1"> <h1> Card 1 <img src="pok.png" alt=""></h1></div>
+        <div class="card2"> <h1>Card 2 <img src="pok1.png" alt=""></h1></div>
+        <div class="card3"> <h1>Card 3 <img src="pok2.png" alt=""></h1></div>
+    </div>
+</body>
+</html>
